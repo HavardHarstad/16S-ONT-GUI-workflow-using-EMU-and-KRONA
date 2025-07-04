@@ -23,11 +23,7 @@ Download script from this site _cat_emu_krona.py_ and run while emukrona conda e
 
 > python3 cat_emu_krona.py
 
-
-
-
-
-
-
-
 ![catbird2](https://github.com/user-attachments/assets/2fdec70a-640e-4f46-84bd-2101f99cc167)
+
+**Usage:**
+
