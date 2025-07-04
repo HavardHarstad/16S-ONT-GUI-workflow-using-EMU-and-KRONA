@@ -4,7 +4,9 @@ A simple GUI python script for analyzing 16S Oxford Nanopore (fastq) reads. Requ
 
 In Terminal:
 
-> conda create -n emukrona emu krona
+```
+conda create -n emukrona emu krona
+```
 
 If this doesnt work, use mamba:
 
