@@ -2,6 +2,8 @@
 
 A simple GUI python script for analyzing full-length 16S Oxford Nanopore (fastq) reads. Created for Ubuntu OS. Require creating a Conda environment for EMU and KRONA combined. The _--threads_ settings for running EMU is set to 20, if having a less powerful computer decrease this definition in script (line 32) to satisfy your computer hardware.
 
+##Instalation:
+
 In Terminal:
 
 ```
