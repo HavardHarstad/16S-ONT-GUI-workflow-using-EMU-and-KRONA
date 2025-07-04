@@ -19,6 +19,6 @@ conda activate emukrona
 
 updateTaxonomy.sh
 
-#Download script from this site cat_emu_krona.py and run:
+#Download script from this site cat_emu_krona.py and run while emukrona conda environment is activated:
 
 python3 cat_emu_krona.py
