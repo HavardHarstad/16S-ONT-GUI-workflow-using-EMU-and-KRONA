@@ -18,7 +18,7 @@ If this doesnt work, use mamba:
 mamba create -n emukrona emu krona
 ```
 
-Log into Conda environment:
+Activate Conda environment:
 
 ```
 conda activate emukrona
