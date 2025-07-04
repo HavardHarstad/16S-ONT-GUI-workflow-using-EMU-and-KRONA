@@ -5,7 +5,7 @@
 
 #In Terminal:
 
-conda create -n emukrona emu krona
+> conda create -n emukrona emu krona
 
 #if this doesnt work, use mamba:
 
