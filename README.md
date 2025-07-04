@@ -4,6 +4,8 @@ A simple GUI python script for analyzing full-length 16S Oxford Nanopore (fastq)
 
 ## Installation:
 
+For installing Conda, check https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
 In Terminal:
 
 ```
