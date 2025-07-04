@@ -17,7 +17,7 @@ Log into Conda environment:
 
 Update Krona Taxonomy_db:
 
-> updateTaxonomy.sh
+> ./ updateTaxonomy.sh
 
 Download script from this site _cat_emu_krona.py_ and run while emukrona conda environment is activated:
 
