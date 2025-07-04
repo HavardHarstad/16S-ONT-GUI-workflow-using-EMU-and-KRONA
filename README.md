@@ -5,7 +5,7 @@
 
 #In Terminal:
 
-#ffffff conda create -n emukrona emu krona
+conda create -n emukrona emu krona
 
 #if this doesnt work, use mamba:
 
@@ -22,3 +22,12 @@ updateTaxonomy.sh
 #Download script from this site cat_emu_krona.py and run while emukrona conda environment is activated:
 
 python3 cat_emu_krona.py
+
+
+
+
+
+
+
+
+![catbird2](https://github.com/user-attachments/assets/2fdec70a-640e-4f46-84bd-2101f99cc167)
