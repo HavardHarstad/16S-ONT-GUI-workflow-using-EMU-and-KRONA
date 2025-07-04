@@ -1,5 +1,4 @@
 **16S-ONT-GUI-workflow-using-EMU-and-KRONA**
-16S Oxford Nanopore GUI workflow using EMU and KRONA
 
 A simple GUI python script for analyzing 16S Oxford Nanopore (fastq) reads. Require creating a Conda environment for EMU and KRONA combined.
 
