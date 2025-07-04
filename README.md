@@ -46,7 +46,7 @@ This GUI should pop up (probably without the Nanopore image) when running _cat_e
 
 2. In main GUI window select the newly created allfiles.fastq.gz as Input FASTQ File
 
-3. Create an output folder where suitable an define this as Output Directory in GUI
+3. Create an output folder where suitable and define this as Output Directory in GUI
 
 4. Press green button Run Pipeline
 
