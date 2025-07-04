@@ -26,3 +26,9 @@ Download script from this site _cat_emu_krona.py_ and run while emukrona conda e
 
 **Usage:**
 
+![Screenshot from 2025-07-04 11-51-38](https://github.com/user-attachments/assets/ef481fa0-9b5b-4865-a9ee-6351641db740)
+
+
+
+
+n
