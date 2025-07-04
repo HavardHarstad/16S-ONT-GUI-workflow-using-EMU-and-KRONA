@@ -28,7 +28,7 @@ Update Krona Taxonomy_db:
 ./ updateTaxonomy.sh
 ```
 
-Download script from this site _cat_emu_krona.py_ and run while emukrona conda environment is activated:
+Download script from this site _cat_emu_krona.py_ and run while _emukrona_ conda environment is activated:
 
 ```
 python3 cat_emu_krona.py
