@@ -44,8 +44,6 @@ This GUI should pop up (probably without the Nanopore image) when running _cat_e
 
 <img width="649" height="879" alt="Screenshot from 2025-08-20 08-31-27" src="https://github.com/user-attachments/assets/a947ad10-718f-4f11-9f96-5efce12b667c" />
 
-![Screenshot from 2025-07-04 11-51-38](https://github.com/user-attachments/assets/ef481fa0-9b5b-4865-a9ee-6351641db740)
-
 1. Concatenate your *.fastq.gz files by pressing yellow button. Browse and define your folder of interest, press OK. This will generate one file called _allfiles.fastq.gz_ in the same folder
 
 2. In main GUI window select the newly created _allfiles.fastq.gz_ as Input FASTQ File
