@@ -58,4 +58,4 @@ This GUI should pop up (probably without the Nanopore image) when running _cat_e
 
 ## **Contacts:**
 
-Optimizing or edits are very welcome. Shout at Everlonghh@gmail.com
+Optimizing or edits are very welcome. Shout at everlonghh@gmail.com
