@@ -54,7 +54,7 @@ This GUI should pop up (probably without the Nanopore image) when running _cat_e
 
 5. If using Firefox browser the Krona plot will automatically pop up when run is finished. Otherwise all results will be put in _Output Directory_ including Krona.html plot, a .tsv file containing estimated read counts for each species, a .sam file and .txt file
 
-6. Visualize the number of reads per microbe by selecting your *.tsv file from _Output Directory and press blue button "Generate Column Count Plot"
+6. Visualize the number of reads per microbe by selecting your *.tsv file from Output Directory and press blue button "Generate Column Count Plot"
 
 ## **Contacts:**
 
