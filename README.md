@@ -50,6 +50,12 @@ This GUI should pop up (probably without the Nanopore image) when running _cat_e
 
 3. Create an output folder where suitable and define this as Output Directory in GUI
 
-4. Press green button Run Pipeline
+4. Press green button "Run Pipeline"
 
 5. If using Firefox browser the Krona plot will automatically pop up when run is finished. Otherwise all results will be put in _Output Directory_ including Krona.html plot, a .tsv file containing estimated read counts for each species, a .sam file and .txt file
+
+6. Visualize the number of reads per microbe by pressing blue button "Generate Column Count Plot" and define your *.tsv file from _Output Directory
+
+## **Contacts:**
+
+Optimizing or edits are very welcome. Shout at Everlonghh@gmail.com
