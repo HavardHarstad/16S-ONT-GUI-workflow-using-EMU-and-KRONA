@@ -28,7 +28,7 @@ Follow instructions at https://github.com/treangenlab/emu to download EMU databa
 Update Krona Taxonomy_db (probably found at _/home/$user/miniforge3/envs/emukrona/bin_)
 
 ```
-./ updateTaxonomy.sh
+./ ktUpdateTaxonomy.sh
 ```
 
 Download script from this site _cat_emu_krona.py_ and run while _emukrona_ conda environment is activated:
