@@ -69,10 +69,14 @@ QC report:
 </p>
 
 Krona plot:
+<p align="center">
 <img width="1265" height="1068" alt="Screenshot from 2026-03-26 10-59-06" src="https://github.com/user-attachments/assets/1d5f8d50-945d-48eb-9d87-cf3729d81ad1" />
+</p>
 
 Number of reads:
+<p align="center">
 <img width="3295" height="1274" alt="Screenshot from 2026-03-26 11-19-30" src="https://github.com/user-attachments/assets/87f742c5-4990-4133-83c6-72670585389b" />
+</p>
 
 
 ## **Contacts:**
