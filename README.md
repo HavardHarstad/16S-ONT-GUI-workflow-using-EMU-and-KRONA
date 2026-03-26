@@ -62,7 +62,9 @@ This GUI should pop up when running _QC_Emu_Krona.py_. To dislay Nanopore image,
 ## **Example of output files:**
 
 QC report:
-[nanopore_qc_raw.pdf](https://github.com/user-attachments/files/26269994/nanopore_qc_raw.pdf)
+<p align="center">
+<img width="1268" height="1076" alt="Screenshot from 2026-03-26 11-25-44" src="https://github.com/user-attachments/assets/0b117637-a521-416d-84a3-ff9479868758" />
+</p>
 
 Krona plot:
 <img width="1265" height="1068" alt="Screenshot from 2026-03-26 10-59-06" src="https://github.com/user-attachments/assets/1d5f8d50-945d-48eb-9d87-cf3729d81ad1" />
