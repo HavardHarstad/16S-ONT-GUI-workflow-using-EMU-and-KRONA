@@ -1,6 +1,6 @@
-# **16S ONT GUI workflow using EMU and KRONA**
+[krona_plot.html](https://github.com/user-attachments/files/26270002/krona_plot.html)# **16S ONT GUI workflow using EMU and KRONA**
 
-A simple GUI python script for analyzing full-length 16S Oxford Nanopore (fastq) reads. Created for Ubuntu OS. Require creating a Conda environment for EMU and KRONA combined. The _--threads_ settings for running EMU is set to 20, if having a less powerful computer decrease this definition in script (line 32) to satisfy your computer hardware.
+A GUI python script for analyzing full-length 16S Oxford Nanopore (fastq) reads, includes Quality Check (QC) of your data. Created for Ubuntu OS. Require creating a Conda environment for EMU and KRONA combined. The _--threads_ settings for running EMU is set to 20, if having a less powerful computer decrease this definition in script (line 194) to satisfy your computer hardware. The MIN-MAX settings for amplicon lenght is set to 1000bp-2000bp when running EMU, changes in these parameters can be done in line 18 and 186. The QC check will show all of your data.
 
 If not having Conda follow https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html before further installation.
 
@@ -23,7 +23,7 @@ Activate Conda environment:
 ```
 conda activate emukrona
 ```
-Follow instructions at https://github.com/treangenlab/emu to download EMU database.
+Follow instructions at https://github.com/treangenlab/emu to download EMU database. Custom updated databases can be created, just follow instructions on same site. 
 
 Update Krona Taxonomy_db (probably found at _/home/$user/miniforge3/envs/emukrona/bin_)
 
@@ -31,19 +31,19 @@ Update Krona Taxonomy_db (probably found at _/home/$user/miniforge3/envs/emukron
 ./ ktUpdateTaxonomy.sh
 ```
 
-Download script from this site _cat_emu_krona.py_ and run while _emukrona_ conda environment is activated:
+Download script from this site _QC_Emu_Krona.py_ and run while _emukrona_ conda environment is activated:
 
 ```
-python3 cat_emu_krona.py
+python3 QC_Emu_Krona.py
 ```
 
 ![catbird2](https://github.com/user-attachments/assets/2fdec70a-640e-4f46-84bd-2101f99cc167)
 
 ## **Usage:**
 
-This GUI should pop up when running _cat_emu_krona.py_. To dislay Nanopore image, download _nanopore.jpg_ from this site and add the local path to line 157 in _cat_emu_krona.py script_. _#Note_ If Barcodes have been applied in the same ONT sequencing run, the procedure described bellow must performed individually for each Barcode.
+This GUI should pop up when running _QC_Emu_Krona.py_. To dislay Nanopore image, download _nanopore.jpg_ from this site and add the local path to line 341 in _QC_Emu_Krona.py script_. _#Note_ If Barcodes have been applied in the same ONT sequencing run, the procedure described bellow must performed individually for each Barcode.
 
-<img width="649" height="931" alt="Screenshot from 2025-10-22 10-29-53" src="https://github.com/user-attachments/assets/ce146cd3-8660-4170-adb6-3351531f0d2a" />
+<img width="649" height="931" alt="Screenshot from 2026-03-26 10-13-16" src="https://github.com/user-attachments/assets/e23af672-27cf-4d32-a6bd-5fa2a0f217d0" />
 
 1. Concatenate your *.fastq.gz files by pressing yellow button "Concatenate FASTQ Files" . Browse and define your folder of interest, press OK. This will generate one file called _allfiles.fastq.gz_ in the same folder.
 
@@ -51,13 +51,25 @@ This GUI should pop up when running _cat_emu_krona.py_. To dislay Nanopore image
 
 3. Create an output folder where suitable and define this as Output Directory in GUI
 
-4. Press green button "Run Pipeline"
+4. Press green button "Run QC and Emu Pipeline"
 
-5. If using Firefox browser the Krona plot will automatically pop up when run is finished. Otherwise all results will be put in _Output Directory_ including Krona.html plot, a .tsv file containing estimated read counts for each species, a .sam file and .txt file.
+5. If using Firefox browser the Krona plot will automatically pop up when run is finished. Otherwise all results will be put in _Output Directory_ including QC.pdf report, a Krona.html plot, a .sam file and .txt file.
 
-6. Visualize the number of reads per microbe by selecting your *.tsv file from Output Directory and press blue button "Generate Column Count Plot"
+6. In main GUI window visualize the number of reads per microbe by selecting your *.tsv file from Output Directory as Input TSV File and press blue button "Generate Column Count Plot"
 
 7. Press red "Clear all" button before analyzing a new dataset.
+
+## **Example of output files:**
+
+QC report:
+[nanopore_qc_raw.pdf](https://github.com/user-attachments/files/26269994/nanopore_qc_raw.pdf)
+
+Krona plot:
+<img width="1265" height="1068" alt="Screenshot from 2026-03-26 10-59-06" src="https://github.com/user-attachments/assets/1d5f8d50-945d-48eb-9d87-cf3729d81ad1" />
+
+Number of reads:
+<img width="3295" height="1274" alt="Screenshot from 2026-03-26 11-19-30" src="https://github.com/user-attachments/assets/87f742c5-4990-4133-83c6-72670585389b" />
+
 
 ## **Contacts:**
 
