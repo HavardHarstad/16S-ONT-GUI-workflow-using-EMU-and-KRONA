@@ -43,7 +43,9 @@ python3 QC_Emu_Krona.py
 
 This GUI should pop up when running _QC_Emu_Krona.py_. To dislay Nanopore image, download _nanopore.jpg_ from this site and add the local path to line 341 in _QC_Emu_Krona.py script_. _#Note_ If Barcodes have been applied in the same ONT sequencing run, the procedure described bellow must performed individually for each Barcode.
 
+<p align="center">
 <img width="649" height="931" alt="Screenshot from 2026-03-26 10-13-16" src="https://github.com/user-attachments/assets/e23af672-27cf-4d32-a6bd-5fa2a0f217d0" />
+</p>
 
 1. Concatenate your *.fastq.gz files by pressing yellow button "Concatenate FASTQ Files" . Browse and define your folder of interest, press OK. This will generate one file called _allfiles.fastq.gz_ in the same folder.
 
