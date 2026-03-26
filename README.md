@@ -1,4 +1,4 @@
-[krona_plot.html](https://github.com/user-attachments/files/26270002/krona_plot.html)# **16S ONT GUI workflow using EMU and KRONA**
+# **16S ONT GUI workflow using EMU and KRONA**
 
 A GUI python script for analyzing full-length 16S Oxford Nanopore (fastq) reads, includes Quality Check (QC) of your data. Created for Ubuntu OS. Require creating a Conda environment for EMU and KRONA combined. The _--threads_ settings for running EMU is set to 20, if having a less powerful computer decrease this definition in script (line 194) to satisfy your computer hardware. The MIN-MAX settings for amplicon lenght is set to 1000bp-2000bp when running EMU, changes in these parameters can be done in line 18 and 186. The QC check will show all of your data.
 
